@@ -16,6 +16,7 @@ book:
         - arch-tables.qmd
         - arch-images.qmd
         - arch-code-annotation.qmd
+        - arch-diagrams.qmd
 
     - part: troubleshooting-overview.qmd
       chapters:
