@@ -1,0 +1,47 @@
+# Basics {#sec-basics}
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+status("complete")
+```
+
+## Introduction
+
+In this chapter, you will learn the basics.
+
+## Lists
+
+### Unordered List
+* apple
+* banana
+* orange
+
+### Ordered List
+1. first
+2. second
+3. third
+
+## Paragraphs
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla hendrerit, urna in posuere vehicula, eros nulla hendrerit tellus, vel tempus dui mi in purus. Mauris mattis tincidunt odio, non efficitur eros porta et. Praesent eu nisl dictum, blandit urna nec, tempus odio. Sed eget elit orci. Aenean elementum enim in erat porttitor tristique. Aenean sed arcu massa. Aenean sit amet turpis sed eros dictum tincidunt ac vitae ex. Sed porttitor eu eros eu gravida. Etiam a tempus libero. Morbi euismod varius dui, varius mollis ipsum ornare sit amet. Nulla sagittis ex eu mi luctus elementum. Curabitur eleifend dignissim placerat. Aenean at sagittis ante. In a felis mi. Mauris urna mi, mattis id efficitur vitae, gravida id diam.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sed nisl et tortor accumsan dictum. Phasellus cursus purus a scelerisque efficitur. Cras at hendrerit quam. Sed aliquet faucibus facilisis. Pellentesque eget iaculis orci. Quisque fermentum quis lorem et fermentum. Sed feugiat erat ut sapien lobortis, in tempor dui aliquam. Aenean a malesuada arcu. Pellentesque dapibus viverra efficitur.
+
+## Text options
+
+### Adding bold text
+You can add inline **bold txt**
+
+### Adding italics
+You can also add inline *italics*!
+
+### Code
+
+#### Inline
+Here is some `inline code`.
+
+## Summary
+
+The basics are fairly similar to standard markdown.

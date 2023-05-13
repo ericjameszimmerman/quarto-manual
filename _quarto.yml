@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "quarto-manual"
+  author: "Eric Zimmerman"
+  date: "5/12/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+
+    - part: architecture-overview.qmd
+      chapters:
+        - arch-basics.qmd
+        - arch-tables.qmd
+        - arch-images.qmd
+        - arch-code-annotation.qmd
+
+    - part: troubleshooting-overview.qmd
+      chapters:
+        - tr-device-tree.qmd
+
+    - references.qmd
+
+  appendices:
+    - appendix-tools.qmd
+    - appendix-resources.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

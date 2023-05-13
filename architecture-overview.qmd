@@ -1,0 +1,32 @@
+# Architecture {#sec-arch-intro .unnumbered}
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+```
+
+Our goal in this part of the book is to give you a rapid overview of the main tools of data science: **importing**, **tidying**, **transforming**, and **visualizing data**, as shown in @fig-ds-whole-game.
+We want to show you the "whole game" of data science giving you just enough of all the major pieces so that you can tackle real, if simple, datasets.
+The later parts of the book, will hit each of these topics in more depth, increasing the range of data science challenges that you can tackle.
+
+```{r}
+#| label: fig-ds-whole-game 
+#| echo: false
+#| out.width: NULL
+#| fig-cap: >
+#|   In this section of the book, you'll learn how to import,
+#|   tidy, transform, and visualize data.
+#| fig-alt: >
+#|   A diagram displaying the data science cycle: Import -> Tidy ->
+#|   Understand  (which has the phases Transform -> Visualize -> Model in a
+#|   cycle) -> Communicate. Surrounding all of these is Program 
+#|   Import, Tidy, Transform, and Visualize is highlighted.
+
+knitr::include_graphics("images/whole-game.png", dpi = 270)
+```
+
+Five chapters focus on the tools of data science:
+
+-   Visualisation is a great place to start with R programming, because the payoff is so clear: you get to make elegant and informative plots that help you understand data.
+    In @sec-tr you'll dive into visualization, learning the basic structure of a ggplot2 plot, and powerful techniques for turning data into plots.

@@ -1,0 +1,74 @@
+# Tables {#sec-tables}
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+status("complete")
+```
+
+## Introduction
+
+In this chapter, you'll learn tools available table formats and style options.
+
+
+### Prerequisites
+
+In this chapter, some data is loaded from flat files / CSV in R with the **readr** package, which is part of the core tidyverse.
+
+```{r}
+#| label: setup
+#| message: false
+
+library(tidyverse)
+```
+
+
+## Basic Markdown Tables
+
+|                  |  mpg| cyl| disp|  hp|
+|:-----------------|----:|---:|----:|---:|
+|Mazda RX4         | 21.0|   6|  160| 110|
+|Mazda RX4 Wag     | 21.0|   6|  160| 110|
+|Datsun 710        | 22.8|   4|  108|  93|
+|Hornet 4 Drive    | 21.4|   6|  258| 110|
+|Hornet Sportabout | 18.7|   8|  360| 175|
+|Valiant           | 18.1|   6|  225| 105|
+
+## Markdown Tables Alignment
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+
+## Table from CSV Data
+
+Here is what a simple CSV file looks like when loaded into a table
+
+```{r}
+#| label: tbl-students-table
+#| echo: false
+#| message: false
+#| tbl-cap: Data from the students.csv file as a table.
+
+read_csv("data/students.csv") |>
+  knitr::kable()
+```
+
+::: {.callout-warning}
+## Tip With Caption
+
+This is an example of a callout with a caption.
+The `Subtables` examples resulted in weird content within the PDF
+:::
+
+## Summary
+
+- Overall, appears to work pretty well
+- The `Subtables` examples resulted in weird content within the PDF
+

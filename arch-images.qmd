@@ -1,0 +1,46 @@
+# Images {#sec-images}
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+status("drafting")
+```
+
+## Introduction
+
+In this chapter, you'll learn to add basic images.
+
+## Basic PNG
+
+This is a basic PNG image reference
+
+![Test Image 4](images/testimage4.png)
+
+## Simple Centered PNG File
+
+This is a simple centered PNG file
+
+![Test Image 3](images/testimage3.png){width=50%, fig-align="center"}
+
+
+## Simple Right-Aligned PNG File
+
+This is a simple right-aligned PNG file.
+
+```{r}
+#| label: fig-ralign-png
+#| echo: false
+#| fig-cap: > 
+#|   This is a caption
+#| fig-alt: > 
+#|   This is the alternate text for a figure.
+#|   The dpi is specified in this example.
+#| fig-align: right
+
+knitr::include_graphics("images/testimage1.png", dpi = 270)
+```
+
+## Summary
+
+There is no basic summary

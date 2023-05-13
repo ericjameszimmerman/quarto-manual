@@ -1,0 +1,22 @@
+# Troubleshooting {#sec-tr .unnumbered}
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+status("polishing")
+```
+
+```{r}
+#| label: fig-ds-visualize
+#| echo: false
+#| fig-cap: >
+#|   Data visualization is often the first step in data exploration.
+#| fig-alt: >
+#|   Our data science model, with visualize highlighted in blue.
+#| out.width: NULL
+
+knitr::include_graphics("images/visualize.png", dpi = 270)
+```
+
+Each chapter addresses one to a few aspects of creating a data visualization.
