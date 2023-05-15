@@ -27,6 +27,7 @@ book:
   appendices:
     - appendix-tools.qmd
     - appendix-resources.qmd
+    - appendix-adrs.qmd
 
 bibliography: references.bib
 

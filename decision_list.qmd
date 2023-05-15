@@ -1,0 +1,36 @@
+{{< include decisions/0000-use-markdown-any-decision-records.qmd >}}
+
+{{< include decisions/0001-use-CC0-or-MIT-as-license.qmd >}}
+
+{{< include decisions/0002-do-not-use-numbers-in-headings.qmd >}}
+
+{{< include decisions/0003-provide-own-madr-tools.qmd >}}
+
+{{< include decisions/0004-write-own-toc-tool.qmd >}}
+
+{{< include decisions/0005-use-dashes-in-filenames.qmd >}}
+
+{{< include decisions/0006-use-names-as-identifier.qmd >}}
+
+{{< include decisions/0007-do-not-emphasize-line-headings.qmd >}}
+
+{{< include decisions/0008-add-status-field.qmd >}}
+
+{{< include decisions/0009-support-links-between-adrs-inside-an-adrs.qmd >}}
+
+{{< include decisions/0010-support-categories.qmd >}}
+
+{{< include decisions/0011-use-asterisk-as-list-marker.qmd >}}
+
+{{< include decisions/0012-use-curly-brackets-to-denote-placeholder.qmd >}}
+
+{{< include decisions/0013-use-yaml-front-matter-for-meta-data.qmd >}}
+
+{{< include decisions/0014-allow-neutral-arguments.qmd >}}
+
+{{< include decisions/0015-include-consulting-informed-of-raci.qmd >}}
+
+{{< include decisions/0016-outcome-before-detailed-pros-cons.qmd >}}
+
+{{< include decisions/0017-use-same-format-for-outcomes-and-options.qmd >}}
+

@@ -1,0 +1,26 @@
+# Architecture Decision Records {#sec-appendix-adrs}
+
+Welcome to the Software Architecture Manual - Appendix: Architecture Decision Records (ADRs). This comprehensive guide serves as a valuable resource for understanding and documenting architectural decisions within your software development projects. With the ever-evolving nature of software systems, it is crucial to have a structured approach to capture and track these decisions, ensuring transparency, collaboration, and informed decision-making throughout the project's lifecycle.
+
+Architecture Decision Records (ADRs) are a well-established technique in the software industry for recording and communicating important architectural choices. They provide a historical record of decisions, the rationale behind them, and any relevant context or trade-offs considered during the decision-making process. By documenting and organizing ADRs, teams can maintain a clear understanding of the architectural landscape, enabling effective collaboration, knowledge sharing, and informed evolution of the system over time.
+
+In this appendix of the Software Architecture Manual, we dive deep into the purpose, structure, and best practices for creating and managing Architecture Decision Records. Whether you are a software architect, developer, or project stakeholder, this manual will provide you with the guidance and tools necessary to establish an effective ADR process within your organization.
+
+Throughout this manual, you will find detailed explanations of each component of an ADR, including:
+
+- Title and ID: A concise title and unique identifier for the decision, facilitating easy reference and searchability.
+- Status: The current status of the decision, such as "proposed," "accepted," or "deprecated," to convey its current state.
+- Context: A description of the situation or problem that necessitated the architectural decision, providing the necessary background information for understanding the decision's significance.
+- Decision: A clear statement of the chosen architectural approach or solution, outlining the specifics of the decision and its implications.
+- Rationale: The underlying reasoning and justification behind the decision, including considerations of factors such as performance, scalability, maintainability, and cost.
+- Consequences: An evaluation of the potential positive and negative outcomes and impacts resulting from the decision, along with any risks, assumptions, or dependencies involved.
+
+By following the guidance provided in this manual, you will be able to establish a consistent and structured approach to creating and managing Architecture Decision Records. We will explore strategies for integrating ADRs into your development workflow, including tools and techniques for maintaining an organized repository of ADRs, tracking their evolution, and facilitating efficient decision-making and review processes.
+
+With a well-documented collection of Architecture Decision Records, your team will have a valuable resource to rely on when revisiting past decisions, onboarding new team members, evaluating system changes, or conducting architectural assessments. This manual empowers you to leverage the collective knowledge and experience of your team, fostering a culture of transparency, collaboration, and continuous improvement.
+
+So, let's embark on this journey together and explore the world of Architecture Decision Records. By implementing this best practice, you'll enhance your software development process, promote architectural excellence, and ensure the long-term success of your software systems. Happy documenting and decision-making!
+
+Note that the ADRs referenced are from https://github.com/adr/madr
+
+{{< include decision_list.qmd >}}
